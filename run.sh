@@ -11,5 +11,5 @@ echo "v4.12.0" > 4.12.txt
 node test.js >> 4.12.txt
 
 echo "\n\nresults"
-paste 4.11.txt 4.12.txt | column -t | tee readme.md
+paste 4.11.txt 4.12.txt | column -t | tee results.txt
 rm 4.11.txt 4.12.txt
